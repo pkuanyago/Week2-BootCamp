@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="style.css" />
     <title>My Portfolio Website</title>
   </head>
   <body>
     <header>
-      <img src="images/logo.jpg" alt="logo" width="100px" />
-      <nav>
+      <nav class="navigation-bar">
+        <img class="logo" src="images/logo.jpg" alt="a logo" height="400px" />
+
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Me</a></li>
@@ -18,35 +20,33 @@
       </nav>
     </header>
     <main>
-      <video controls width="500px" height="400px">
+      <video controls height="800px">
         <source src="videos/computer.mp4" type="video/mp4" />
       </video>
-      <hr />
 
-      <h1>Pontsho Kuanyago</h1>
-      <p>
-        I am Pontsho, an aspiring front-end developer with a strong interest in
-        building responsive, user-friendly web applications. Currently, I am
-        enhancing my skills through a web development bootcamp, focusing on
-        HTML, CSS, JavaScript, and modern front-end frameworks. With a keen eye
-        for design and functionality, I am dedicated to creating seamless
-        digital experiences. I am continuously learning and refining my skills
-        to stay updated with industry trends and best practices. I am eager to
-        collaborate on innovative projects and contribute to dynamic development
-        teams.
-      </p>
-      <img
-        src="images/potrait.jpg"
-        alt="my headshot"
-        width="500px"
-        height="600px"
-      />
+      <div class="bio-section">
+        <div class="bio-text">
+          <h1>Pontsho Kuanyago</h1>
+          <p>
+            I am Pontsho, an aspiring front-end developer with a strong interest
+            in building responsive, user-friendly web applications. Currently, I
+            am enhancing my skills through a web development bootcamp, focusing
+            on HTML, CSS, JavaScript, and modern front-end frameworks. With a
+            keen eye for design and functionality, I am dedicated to creating
+            seamless digital experiences. I am continuously learning and
+            refining my skills to stay updated with industry trends and best
+            practices. I am eager to collaborate on innovative projects and
+            contribute to dynamic development teams.
+          </p>
+        </div>
+        <img class="photo" src="images/potrait.jpg" alt="my headshot" />
+      </div>
     </main>
     <hr />
     <footer>
-      <p>Email: pkuanyago@gmail.com</p>
-      <p>Phone: +2785079641</p>
-      <p>
+      <p class="email">Email: pkuanyago@gmail.com</p>
+      <p class="phone">Phone: +2785079641</p>
+      <p class="github">
         Github:
         <a href="https://github.com/pkuanyago" target="_blank"
           >github.com/pkuanyago</a
