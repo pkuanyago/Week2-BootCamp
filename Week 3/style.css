@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#game-board {
+  width: 640px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  gap: 10px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  background-image: url('images/back.jpg'); /* the back of the card */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card.flipped {
+  background-size: cover;
+  background-position: center;
+}
